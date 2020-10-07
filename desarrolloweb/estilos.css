@@ -1,0 +1,587 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('./fonts/icomoon.eot?ql4bxg');
+    src:  url('./fonts/icomoon.eot?ql4bxg#iefix') format('embedded-opentype'),
+          url('./fonts/icomoon.ttf?ql4bxg') format('truetype'),
+          url('./fonts/icomoon.woff?ql4bxg') format('woff'),
+          url('./fonts/icomoon.svg?ql4bxg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-menu:before {
+    content: "\e900";
+  }
+
+header {
+    background-color:#181f25;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;  
+    display: flex;
+    flex-wrap: wrap;  
+    height: 70px;
+}
+
+
+header img{
+    padding:10px;
+}
+
+header ol {
+    display: flex;
+    height: inherit;    
+}
+
+header a {
+    padding: 10px;
+    border: 1px gray solid;
+    border-radius: 6px;
+    margin: 4px;
+    
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;   
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+    color: #026fff;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.presentacion {
+    height: 300px;
+    background:#181f25;
+    color: white;
+    /* background-image: url('../desarrolloweb/images/hero.jpg'); */
+    /* background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-position-x: right; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+h1 {
+   font-size: 30px;
+   line-height: 150%;
+   letter-spacing: -.3px;
+   text-transform: capitalize; 
+}
+
+
+h1 strong{
+    color:blue ;
+}
+
+
+
+.proyecto{
+    /* border-top: 10px solid rgb(10, 10, 173);
+    border-right:10px solid red;
+    border-left:10px solid salmon;
+    border-bottom:10px solid yellow; */
+    border-radius: 40px;
+    margin:30px;
+    background: white;   
+    display: flex;
+    border-left: ridge;
+    border-right: groove; 
+    flex-wrap: wrap;
+    padding-left:  20px;
+}
+
+
+.proyecto-seccion{
+    width: 50%;
+
+}
+
+.contenido-imagen{
+    width: 50%;  
+}
+
+/* .header{
+    background-color: #e5ff00;
+} */
+
+.header a {
+    color:white;
+    text-decoration: none;      
+}
+
+.portfolio{
+    background:#fafafa;
+    -webkit-margin-collapse: separate;
+    padding: 10px;
+    border: gray 2px;
+}
+
+figure{
+    margin: 0;
+}
+
+ol,ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li{
+    color: white;
+}
+
+.footer {
+    background-color:#181f25; 
+    color: white; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.footer img{
+    vertical-align: middle;
+    margin: 10px;
+}
+
+.footer p {
+    text-align: center;
+}
+
+.heroe {
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+
+.contacto{
+    background-color:#fafafa;
+    -webkit-margin-collapse: separate;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.evento{
+    margin: 1%;
+    object-fit: cover;
+    border-radius: 6px;
+    flex-shrink:0;
+    overflow: hidden;
+    width: 48%;
+    background-color: #f4fbff;
+     
+}
+
+
+.event{
+    margin: 20px 40px;
+    margin-top: -40px;
+    background-color: white;
+    position: relative;
+    padding: 30px;
+    text-align: center;
+      
+}
+
+.event p{
+    text-align: left;
+}
+
+.evento-url{
+    border: 1px solid blue;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.heroe img{
+    width: 480px;
+    height: 200px;
+    object-fit: cover;      
+}
+
+.eventos{
+    display: flex;
+    margin: 10px;
+}
+
+.titulo{
+    margin-left:20px;
+}
+
+.contacto {
+    background-color: rgb(13, 139, 180);
+    height: 148px;  
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacto h2{
+    color: white;
+
+}
+
+
+.social-link{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-size: 50px 50px;
+    margin: 10px;
+    
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('./fonts2/icomoon.eot?ab9w6u');
+    src:  url('./fonts2/icomoon.eot?ab9w6u#iefix') format('embedded-opentype'),
+          url('./fonts2/icomoon.ttf?ab9w6u') format('truetype'),
+          url('./fonts2/icomoon.woff?ab9w6u') format('woff'),
+          url('./fonts2/icomoon.svg?ab9w6u#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display:block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak-as: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    vertical-align: super;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-instagram:before {
+    content: "\e904";
+    color:white;
+    font-size: 49px;
+    display: inline-block;
+    vertical-align: super;
+
+  }
+
+
+.social-link.facebook{
+    background-image: url('./images/facebook.svg');
+
+    
+}
+
+.social-link.twitter{
+    background-image: url('./images/twitter.svg');
+  
+}
+
+.form-email input{
+ border-color: grey;
+ border-radius: 5px;
+ border-style: solid;
+ padding: 10px 20px 10px 25px;
+ background-image: url('./images/envelope.svg') ;
+ background-size: 15px 15px;
+ background-repeat: no-repeat;
+ background-position-y: center;
+ background-position-x: 5px;
+
+}
+
+.form-email button{
+    display: block;
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 0;
+    width: 100px;
+    margin-top: 10px;
+    
+}
+
+.contenedor{
+    
+    margin: 0 auto;
+    max-width: 1100px;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+    flex-wrap: inherit;
+    height: inherit;
+    flex: 1;
+
+}
+
+.html-video {
+   width: 100%;
+   height: auto;
+}
+
+.burger-button{
+    width: 40px;
+    height: 40px;
+    border-radius: 40%;
+    display: block;
+    display: none;
+    background-color: rgba(0, 0, 0, .8);
+    line-height:40px;
+    text-align: center;
+    position: fixed;
+    color: white;
+    z-index: 2;
+    /* left: 10px; */
+    top: 18px;
+}
+
+.menu {
+    background:rgba(5, 111, 255, .8);
+    position: fixed;
+    right: 0;
+    left: -100vw;
+    width: 100vw;
+    top: 0;
+    /* height: 100vh; */
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+    transition: .3s;
+}
+
+.is-active{
+   left:0;
+   right: -100vw;
+}
+
+@media screen and (max-width: 1440px){
+    .presentacion{
+        height: auto;
+        
+    }
+
+
+}
+
+
+@media screen and (max-width: 767px) {
+
+    .burger-button{
+        left: 10px;
+        top: 30px;
+        display: block;
+    }
+    .header {
+        display: block;
+        height: auto;
+    }
+    .header ol {
+        display: initial;
+    }
+
+    .header ol li {
+        height: 50px;
+        text-align: center;
+    }
+
+    .header .logo {
+        text-align: center;
+    }
+
+    
+    .proyecto-seccion{
+        width: auto;
+        justify-content: center;
+        font-size: 18px;
+    }
+    
+    .contenido-imagen{
+        width: auto;
+        text-align: center;
+    }
+
+    .proyecto h1 {
+        font-size: 1.5em;
+
+    }
+
+    .proyecto-curso {
+        font-size: 100%;
+    }
+
+    .proyecto-fecha {
+        font-size: 1em;
+    }
+
+    .proyecto-url {
+        font-size: 1em;
+    }
+
+    .proyecto-descripcion {
+        font-size: 100%;
+    }
+
+    .evento {
+        width: auto;
+        flex-shrink: initial;
+    }
+
+    .evento-imagen {
+        width: 100%;
+    }
+
+    .presentacion{
+        height: auto;
+    }
+    
+    header img{
+        padding: 25px;
+    }
+}
+
+@media screen and (max-width: 492px) {
+
+    .burger-button{
+        left: 10px;
+        top: 30px;
+        display: block;
+    }
+
+    .event {
+        margin: -2em .5em .5em;
+        padding: 1em;
+    }
+
+    .contacto {
+        height: auto;
+        padding: 1em 0;
+        text-align: center;
+        display: inherit;
+        
+    }
+
+    .form-email button{
+        margin: 1em auto;
+    }
+
+    .footer{
+        text-align: inherit;
+        display: flow-root;
+    }
+    
+    .presentacion{
+        height: auto;
+    }
+
+    .presentacion h1{
+        text-align: center;
+        z-index: 1;
+
+    }
+
+    .presentacion img {
+      width: 100%;
+      height: 100%;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+
+    .burger-button{
+        left: 1.3px;
+        top: 80px;
+        display: block;
+    }
+    .proyecto-seccion{
+        font-size: small;
+    }
+
+    .footer{
+        display: flow-root;
+    }
+
+    .presentacion{
+        height: auto;
+    }
+    
+    .presentacion h1{
+        font-size: 1.2em;
+        text-align: center;
+        padding: 2px;
+    }
+
+    .presentacion img {
+        width: 100%;
+        height: 100%;
+      }
+}
+
+@media screen and (max-width: 500px) {
+
+    .presentacion{
+        height: auto;
+        padding: auto;
+    }
+
+    .presentacion h1{
+        text-align: center;
+    }
+
+
+    .contacto {
+        height: auto;
+        padding: 1em 0;
+        text-align: center;
+        display: inherit;
+        
+    }
+
+    .form-email button{
+        margin: 1em auto;
+    }
+    .proyecto-seccion{
+        font-size: small;
+    }
+
+    .footer{
+        display: flow-root;
+    }
+}
